@@ -2,15 +2,23 @@
 <html>
     <head>
       <title>Parvarish</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+      <link rel="stylesheet" href="main.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Asap&family=Mrs+Saint+Delafield&family=Tilt+Warp&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/9d544fb921.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css" />
+      <script defer src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+      <script defer src="scripts.js"></script>
     </head>
     <body>
-      <script src="C:\Users\Arunav Ganguly\OneDrive\Documents\GitHub\Parvarish\main.js"></script>
+      <script src="main.js"></script>
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+            <img src="assets/pl.png" width="112" height="30">
           </a>
       
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -22,42 +30,53 @@
       
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item">
-              Home
+            <a class="navbar-item" href="#sm">
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fa-solid fa-flag-checkered"></i>
+                </span>
+                <span>Our Mission</span>
+              </span>
             </a>
-      
-            <a class="navbar-item">
-              Documentation
+            <a class="navbar-item" href="#sa">
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fa-solid fa-circle-info"></i>
+                </span>
+                <span>About Us</span>
+              </span>
             </a>
-      
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
-                More
-              </a>
-      
-              <div class="navbar-dropdown">
-                <a class="navbar-item">
-                  About
-                </a>
-                <a class="navbar-item">
-                  Jobs
-                </a>
-                <a class="navbar-item">
-                  Contact
-                </a>
-                <hr class="navbar-divider">
-                <a class="navbar-item">
-                  Report an issue
-                </a>
-              </div>
-            </div>
+            <a class="navbar-item" href="#sw">
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fa-solid fa-question"></i>
+                </span>
+                <span>Why Us</span>
+              </span>
+            </a>
+            
+            <a class="navbar-item" href="#sk">
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fa-solid fa-heart"></i>
+                </span>
+                <span>Khaasiyat</span>
+              </span>
+            </a>
+            <a class="navbar-item "href="#sc">
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fa-solid fa-address-book"></i>
+                </span>
+                <span>Contact Us</span>
+              </span>
+            </a>
           </div>
-      
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
                 <a class="button is-primary">
-                  <strong>Sign up</strong>
+                  <strong>Join Us</strong>
                 </a>
                 <a class="button is-light">
                   Log in
@@ -67,6 +86,226 @@
           </div>
         </div>
       </nav>
-    </body>
+      <div class="contain">
+        <div class="imgtxt">
+          <span class="int">Introducing</span><br> <span class="tw">PARVARISH</span>
+        </div>
+        <section id="intro" class="section">
+          <div class="container is-clipped">
+            <div id="slider">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-16by9 is-covered">
+                    <img
+                      src="assets/img1.png"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
     
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-16by9 is-covered">
+                    <img
+                      src="assets/img2.png"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-16by9 is-covered">
+                    <img
+                      src="assets/img3.png"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-16by9 is-covered">
+                    <img
+                      src="https://images.unsplash.com/photo-1550931937-2dfd45a40da0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-16by9 is-covered">
+                    <img
+                      src="https://images.unsplash.com/photo-1550930516-af8b8cc4f871?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <br>
+      <section id="mission" class="section box columns reveal">
+        <figure class="image column">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </figure>
+        <div class="content is-medium column" >
+          <h2 id="sm">Our Lakshya</h2>
+          <p>
+            The concept of daycares is very prevalent in the west and not so much in our country, but 
+            now when we are moving from joint families to nuclear families and both the parents are 
+            working we feel the need too. We at PARVARISH aim to aid you in that,<b><i> want to make the 
+            parents aware about the advantages of daycares</i></b> and how their children can still be taken 
+            care of while they themselves are at the office trying to give their children the best life 
+            they can. It is true that <B><i>nothing can replace the love of parents but we assure you that 
+            we will provide you the second best thing to it</i></B> and make sure that you don't have to 
+            worry about their <b><i>safety and convenience</i></b>.
+          </p>
+        </div>
+      </section>
+      <br>
+      <section id="aboutus" class="section box columns reveal">
+        <div class="content is-medium column">
+          <h2 id="sa">OUR PARICHAY</h2>
+          <p>
+            According to a recent survey 62.3% families in India have both parents working, 
+            of these parents are in need of a decent day-care facility and have to tour
+            the entire town comparing various day-cares which leads to unwanted stress 
+            and wastage of resources. We at PARVARISH aim to solve that problem by 
+            providing parents a platform to view, compare and book day-care facilities 
+            at one place that too at costs less than market price.
+        </p>
+        </div>
+        <figure class="image column">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </figure>
+      </section>
+      <br>
+      <section id="why" class="section box columns reveal">
+        <figure class="image column">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </figure>
+        <div class="content is-medium column" >
+          <h2 id="sw">WHY PARVARISH</h2>
+          <p>
+            We are a service like no other. The option to view, compare and book day care facilities
+            at one place is very comfortable for any working parents and comes off as THE perfect solution.
+            The great personal customer service which we will provide to the customers would be a major source of attraction.
+            The experience of the founders in the respective fields along with the zeal to
+            do well benefits the company as well. As of yet, there is no other website or app that is doing 
+            things how we plan to do. Our motto 'A Second Home' very well defines what we want to do with the company 
+            and what kind of experience we want to provide to the customers.
+          </p>
+        </div>
+      </section>
+      <br>
+      <section id="khaas" class="hero is-medium reveal">
+        <div class="hero-head has-text-centered">
+          <br><br><br>
+          <h2 id="sk" class="title khaas">
+            Khaasiyat
+          </h2>
+        </div>
+        <div class="hero-body">
+          <div class="tile is-ancestor">
+            <div class="tile is-4 is-vertical is-parent">
+              <div class="tile is-child box">
+                <h2 class="title">One-Stop Solution</h2>
+                <p>
+                  Remember surfing the internet for countless hours, calling 
+                  every day-care or touring around the entire city just to find 
+                  the perfect facility for your child and even after all this not 
+                  being completely sure if your children will be treated like those 
+                  adorable little souls deserve to be? Well, that's <b><i>NOT a problem anymore</i></b>, 
+                  PARVARISH is a <b><i>one-stop solution for viewing, comparing, and booking day-cares 
+                    at the same place</i></b> without the hassle of calls or waiting for replies, or 
+                  taking leaves from your office to look for one. Now you can focus on your 
+                  work without worrying about your children being mistreated or mishandled.
+                </p>
+              </div>
+              <div class="tile is-child box">
+                <h2 class="title">Transparency</h2>
+                <p>
+                  We at PARVARISH completely understand your love for your children and 
+                  you being protective of them.We <b><i>ensure</i></b> that we give you each and every 
+                  detail about the day-care facility ranging from <b><i>security checks</i></b> to <b><i>food</i></b> 
+                  to <b><i>CCTV cameras</i></b> and even the <b><i>backgrounds of the employees</i></b> when it comes 
+                  to our PARVARISH-approved daycares. We want you to have all the information 
+                  you need to make a <b><i>well-informed decision</i></b> for your child and have a sense 
+                  of security and satisfaction when you drop them off at the daycare every morning.
+                </p>
+              </div>
+            </div>
+            <div class="tile is-parent">
+              <div class="tile is-child box">
+                <h2 class="title">Parent Angel Program</h2>
+                <p>
+                  We know how much trust you put in us when you send your 
+                  children to daycares and we don't plan to break that trust. 
+                  Every once in a while <b><i>we conduct checks at every facility of 
+                    ours</i></b> and we thought who would know better about what is better 
+                  for the children other than their parents.
+                </p>
+                <br>
+                <p>
+                  We wish to make the parents <b><i>OUR GUARDIAN ANGELS</i></b>.
+                  We aim to adhere to a system wherein <b><i>we ensure quality 
+                    checks at ground zero</i></b> with the help of our parents because 
+                  whats better than feedback from someone who will always keep 
+                  their childs wellbeing their topmost priority. We would love to 
+                  provide the parents that volunteer with <b><i>discounts and coupon codes</i></b> 
+                  on their next purchase and make this dream come true, TOGETHER.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hero is-medium reveal foots" id="contact">
+        <br>
+        <div class="hero-head has-text-centered">
+          <h1 id="sc" class="title fotext">
+            Contact Us
+          </h1>
+        </div>
+        <div class="hero-body columns">
+          <div class="column has-text-centered">
+            <p>Phone</p>
+            <p>Amogh Bajpai: +919818212124</p>
+            <p>Adhayan Grover: +918360339698</p>
+          </div>
+          <div class="column has-text-centered">
+            <p>Email</p>
+            <span class="icon-text">
+              <span class="icon">
+                <i class="fa-solid fa-envelope"></i>
+              </span>
+              <span><a href="link here">hellu@parvarishcaredotcom</a></span>
+            </span>
+          </div>
+          <div class="column has-text-centered">
+            <p>Social Media</p>
+            <span class="icon-text">
+              <span class="icon">
+                <i class="fa-brands fa-instagram"></i>
+              </span>
+              <span><a href="https://www.instagram.com/parvarishcare/">@parvarishcare</a></span>
+            </span> <br>
+            <span class="icon-text">
+              <span class="icon">
+                <i class="fa-brands fa-linkedin"></i>
+              </span>
+              <span><a href="enter link here">parvarsishsoandso</a></span>
+            </span>
+          </div>
+        </div>
+      </section>
+    </body>
 </html>

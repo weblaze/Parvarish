@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #fff0f5;
+}
+
+.class {
+    background-size: cover;
+    background-image: url(https://bulma.io/images/placeholders/128x128.png);
+}
+
+nav,section {
+    background-color: #fff0f5;
+    color: #a06066;
+    font-family: "Asap";
+}
+
+#aboutus, #why, #khaas, #mission {
+    background-color: #fff0f5;
+    color: #a06066;
+}
+
+h2 {
+    font-family: "Tilt Warp";
+}
+
+.khaas {
+    font-size: 75px;
+}
+
+p {
+    font-family: "Asap";
+}
+
+.foots, .fotext {
+    background-color: #A06066;
+    color: azure;
+}
+
+.fotext {
+    font-family: "Abril Fatface";
+    font-size: 75px;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1.5s all ease;
+}
+
+.reveal.active{
+transform: translateY(0);
+opacity: 1;
+}
+
+.imgtxt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-family: "Tilt Warp";
+    font-size: 80px;
+    color: black;
+}
+
+.int {
+    z-index: 1;
+    font-family: "Mrs Saint Delafield";
+    font-size: 90px;
+    color: #3c0008;
+}
+
+.tw {
+    font-family: "Tilt Warp";
+}
+
+.contain {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7c7c7c;
+    background-color: transparent;
+    text-decoration: underline;
+}
