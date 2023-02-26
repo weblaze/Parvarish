@@ -4,6 +4,6 @@ bulmaCarousel.attach('#slider', {
     infinite: true,
     autoplay: true,
     duration: 600,
-    autoplaySpeed: 15000,
+    autoplaySpeed: 5000,
     breakpoints: [{ changePoint: 480, slidesToShow: 1, slidesToScroll: 1 }, { changePoint: 640, slidesToShow: 1, slidesToScroll: 1 }, { changePoint: 768, slidesToShow: 1, slidesToScroll: 1 } ],
   });
