@@ -3,11 +3,6 @@ html {
     background-color: #fff0f5;
 }
 
-.class {
-    background-size: cover;
-    background-image: url(https://bulma.io/images/placeholders/128x128.png);
-}
-
 nav,section {
     background-color: #fff0f5;
     color: #a06066;
@@ -18,41 +13,6 @@ nav,section {
     background-color: #fff0f5;
     color: #a06066;
 }
-
-h2 {
-    font-family: "Tilt Warp";
-}
-
-.khaas {
-    font-size: 75px;
-}
-
-p {
-    font-family: "Asap";
-}
-
-.foots, .fotext {
-    background-color: #A06066;
-    color: azure;
-}
-
-.fotext {
-    font-family: "Abril Fatface";
-    font-size: 75px;
-}
-
-.reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 1.5s all ease;
-}
-
-.reveal.active{
-transform: translateY(0);
-opacity: 1;
-}
-
 .imgtxt {
     position: absolute;
     top: 50%;
@@ -97,4 +57,38 @@ a:hover {
     color: #7c7c7c;
     background-color: transparent;
     text-decoration: underline;
+}
+
+h2 {
+    font-family: "Tilt Warp";
+}
+
+.khaas {
+    font-size: 75px;
+}
+
+p {
+    font-family: "Asap";
+}
+
+.foots, .fotext {
+    background-color: #A06066;
+    color: azure;
+}
+
+.fotext {
+    font-family: "Abril Fatface";
+    font-size: 75px;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1.5s all ease;
+}
+
+.reveal.active{
+transform: translateY(0);
+opacity: 1;
 }
